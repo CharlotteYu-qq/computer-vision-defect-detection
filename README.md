@@ -59,7 +59,9 @@ Step 3: Install dependencies
 
     pip install -r requirements.txt
 
-Step 4: Run detection pipeline
+## Usage
+
+Step 1: Run detection pipeline
 
     # 1. detect in batches and generate csv report
     python src/batch_process_final.py
@@ -67,9 +69,10 @@ Step 4: Run detection pipeline
     # 2. generate visual pictures
     python src/generate_final_report.py
 
-Step 3: Check result
+Step 2: Check result
     
     # data saved in output/detection_report.csv
+
     # images saved in output/final_unified_view/
 
     
